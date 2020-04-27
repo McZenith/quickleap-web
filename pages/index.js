@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header } from "../components";
+import { NavLayout } from "../Layouts";
 
 export default function Home() {
   return (
@@ -7,11 +7,8 @@ export default function Home() {
       <Head>
         <title>Quickleap</title>
       </Head>
-      <main>
-        <Header />
-      </main>
-      <footer></footer>
 
+      <NavLayout />
       <style jsx>{``}</style>
 
       <style jsx global>{`

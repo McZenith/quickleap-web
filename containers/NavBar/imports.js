@@ -1,3 +1,3 @@
-import Header from "../../components";
+import { Header } from "../../components";
 
 export { Header };
