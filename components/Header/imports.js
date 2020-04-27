@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     height: 15,
   },
   toolbar: {
-    minHeight: 80,
+    minHeight: 70,
   },
 }));
 
