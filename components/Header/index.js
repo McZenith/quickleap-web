@@ -1,12 +1,14 @@
-import { useStyles, AppBar, Toolbar, Typography, Button } from "./imports";
+import { useStyles, AppBar, Toolbar, useMediaQuery, useTheme } from "./imports";
 
 const Header = () => {
-  const { root } = useStyles();
+  const { root, toolbar } = useStyles();
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up("sm"));
 
   return (
     <div className={root}>
       <AppBar position="static" color="white" elevation={3}>
-        <Toolbar></Toolbar>
+        <Toolbar className={matches ? toolbar : null}></Toolbar>
       </AppBar>
     </div>
   );
