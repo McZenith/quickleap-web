@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
 
-  title: {
+  logo: {
+    maxWidth: 200,
     flexGrow: 1,
   },
 }));

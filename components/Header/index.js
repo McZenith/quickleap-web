@@ -1,17 +1,12 @@
 import { useStyles, AppBar, Toolbar, Typography, Button } from "./imports";
 
 const Header = () => {
-  const { root, title } = useStyles();
+  const { root, logo } = useStyles();
 
   return (
     <div className={root}>
-      <AppBar position="static" color="white" elevation={5}>
-        <Toolbar>
-          <Typography variant="h6" className={title}>
-            News
-          </Typography>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
+      <AppBar position="static" color="white" elevation={3}>
+        <Toolbar></Toolbar>
       </AppBar>
     </div>
   );
