@@ -9,11 +9,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-
-  logo: {
-    maxWidth: 200,
-    flexGrow: 1,
-  },
 }));
 
 export { useStyles, AppBar, Toolbar, Typography, Button };

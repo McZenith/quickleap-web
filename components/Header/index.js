@@ -1,7 +1,7 @@
 import { useStyles, AppBar, Toolbar, Typography, Button } from "./imports";
 
 const Header = () => {
-  const { root, logo } = useStyles();
+  const { root } = useStyles();
 
   return (
     <div className={root}>
