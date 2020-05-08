@@ -5,17 +5,25 @@ import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
+import Drawer from "@material-ui/core/Drawer";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import { useState } from "react";
 
-const useStyles = makeStyles((theme) => ({}));
+const useStyles = makeStyles({
+  list: {
+    width: 250,
+  },
+  fullList: {
+    width: "auto",
+  },
+});
 
 export {
   List,
   ListItem,
-  SwipeableDrawer,
+  Drawer,
   MenuIcon,
   Header,
   Grid,
@@ -24,4 +32,5 @@ export {
   Hidden,
   IconButton,
   ListItemText,
+  useState,
 };
